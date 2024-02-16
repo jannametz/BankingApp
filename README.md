@@ -1,6 +1,5 @@
 # Banking Application Microservices :woman_technologist:
-Banking Application Microservices
-Simple bank application with ability to manage accounts, transfer money between accounts and manage related transactions.
+Simple Banking Application Microservices with ability to manage accounts, transfer money between accounts and manage related transactions.
 
 ## Environment:
 * Java version: 17
