@@ -4,7 +4,7 @@ Simple Banking Application Microservices with ability to manage accounts, transf
 ## Environment:
 * Java version: 17
 * Maven
-* Spring Boot version: 3.1.0 RELEASE
+* Spring Boot version: 3.2.2 RELEASE
 
 ## General requirements:
 
