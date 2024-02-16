@@ -1,0 +1,18 @@
+spring:
+ # main:
+  #  banner-mode: off
+
+    datasource:
+      url: jdbc:mysql://localhost:3306/banking
+      username: root
+      password: Maximilianpercy2020
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+jpa:
+ show-sql: true
+ hibernate:
+    ddl-auto: none
+
+#liquibase:
+    #change-log: classpath:/db/changelog/db.changelog-master.yaml
+    #enabled: true
