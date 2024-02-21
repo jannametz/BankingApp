@@ -97,7 +97,7 @@ The ```REST``` service must expose the ```/accounts``` and ```/transactions``` e
 
 * the response code is ```200```
 * the response body is an array of matching records, ordered by their ids in increasing order 
-* accepts an optional query    string parameter, date, in the format ```YYYY-MM-DD,``` for example ```/transaction?date=2022-11-25.``` When this parameter is present, only the records with the matching date are returned.
+* accepts an optional query    string parameter, date, in the format ```YYYY-MM-DD,``` for example ```/transaction?date=2022-02-02.``` When this parameter is present, only the records with the matching date are returned.
 * accepts an optional query string parameter, type, and when this parameter is present, only the records with the matching type are returned. It might contain several values, separated by commas, meaning that records with the type matching any of these values must be returned.
 * accepts an optional query string parameter, sort, that can take one of two values: either "dateTime" or "-dateTime". If the value is "dateTime", then the ordering is by dateTime in ascending order. If it is "-dateTime", then the ordering is by dateTime in descending order. If there are two records with the same dateTime, the one with the smaller id must come first.
 
