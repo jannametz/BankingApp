@@ -71,8 +71,8 @@ The ```REST``` service must expose the ```/accounts``` and ```/transactions``` e
 
 * the response code is 200 
 * the response body is an array of matching records, ordered by their ids in increasing order
-* accepts an optional query string parameter, date, in the format ```YYYY-MM-DD,``` for example ```/account?date=2022-11-25.``` When this parameter is present, only the records with the matching date are returned.
-* accepts an optional query string parameter, city, and when this parameter is present, only the records with the matching city are returned. The value of this parameter is case insensitive, so "London" and "london" are equivalent. Moreover, it might contain several values, separated by commas (e.g. city=london,Munich), meaning that records with the city matching any of these values must be returned.
+* accepts an optional query string parameter, date, in the format ```YYYY-MM-DD,``` for example ```/account?date=2024-02-02.``` When this parameter is present, only the records with the matching date are returned.
+* accepts an optional query string parameter, city, and when this parameter is present, only the records with the matching city are returned. The value of this parameter is case insensitive, so "London" and "london" are equivalent. Moreover, it might contain several values, separated by commas (e.g. city=london, Munich), meaning that records with the city matching any of these values must be returned.
 
 * accepts an optional query string parameter, sort, that can take one of two values: either "creationDate" or "-creationDate". If the value is "creationDate", then the ordering is by date in ascending order. If it is "-creationDate", then the ordering is by creationDate in descending order. If there are two records with the same creationDate, the one with the smaller id must come first.
 
